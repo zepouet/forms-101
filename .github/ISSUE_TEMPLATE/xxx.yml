@@ -1,4 +1,4 @@
-name: Bug Report
+name: Deploy Azure function
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
