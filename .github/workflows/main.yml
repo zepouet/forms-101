@@ -1,7 +1,9 @@
 name: Issue Forms Body Parser
 
-on: issues
-
+on:
+  issues:
+    types: [opened, reopened]
+    
 jobs:
   process:
     runs-on: ubuntu-latest
